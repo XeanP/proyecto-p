@@ -35,18 +35,20 @@ h1 {
     margin-left: auto;
     margin-right: auto;
     font-family: teko;
+    font-size: 240px;
     z-index:3;
 }
 p {
   color: #f0f0f0;
   margin-top: 8px;
+  
   text-align: center;
   max-width: 90%;
   margin-left: auto;
   margin-right: auto;
   font-family: "Teko", sans-serif;
   z-index: 3;
-  font-size: 18px; /* Ajusta el tamaño del párrafo */
+  font-size: 120px; 
 }
 
 h5 {
@@ -69,8 +71,7 @@ p {
 }
 
 h5 {
-    font-size: 16px; 
-  }
+    font-size: 16px; }
 
  
 }
