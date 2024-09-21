@@ -35,35 +35,46 @@ h1 {
     margin-left: auto;
     margin-right: auto;
     font-family: teko;
+    z-index:3;
 }
 p {
   color: #f0f0f0;
-    margin-top: 8px;
-    text-align: center;
-    max-width: 10%;
-    margin-left: auto;
-    margin-right: auto;
-    font-family: teko;
+  margin-top: 8px;
+  text-align: center;
+  max-width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "Teko", sans-serif;
+  z-index: 3;
+  font-size: 18px; /* Ajusta el tamaño del párrafo */
 }
-
 
 h5 {
-    color: #f0f0f0;
-    position: absolute;
-    bottom: 10px; /* Ajusta según tu preferencia */
-    right: 10px; /* Ajusta según tu preferencia */
-    margin: 0;
+  color: #f0f0f0;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  margin: 0;
 }
 
+/* Ajustes específicos para móviles */
 @media (max-width: 768px) {
-  h1 {
-      font-size: 120px; /* Tamaño de fuente más grande para móviles */
+h1 {
+    font-size: 120px; /* Tamaño de fuente más grande para móviles */
+    margin-top: 20px; /* Ajustar el margen para evitar solapamiento */
+}
+
+p {
+    font-size: 24px; /* Ajusta el tamaño del párrafo para móviles */
+}
+
+h5 {
+    font-size: 16px; 
   }
 
-  h5 {
-      font-size: 24px; /* Tamaño más grande para el h5 en móviles */
-  }
+ 
 }
+
 
 
 .night {
